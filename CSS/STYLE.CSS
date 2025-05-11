@@ -1,0 +1,46 @@
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #cacc92ff;
+    color: #000000ff;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+}
+
+/* Estilo del logo y menú en el header */
+
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.encabezado .logo {
+    width: flex;
+    height: center;
+}
+
+.encabezado .logo img {
+    width: 200px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.encabezado nav {
+    display: flex;
+}
+
+.encabezado .menu-list{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.encabezado .menu-list a{
+    margin-right: 30px;
+}
+
