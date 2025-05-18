@@ -116,3 +116,128 @@ header {
 #about .social-links a:hover{
     color: #FAAE7Bff;
 }
+
+/* carrusel */
+
+/* Fondo claro para el carrusel */
+#carouselExampleCaptions {
+    background-color: #f2f2f2; /* white-smoke */
+    max-height: 750px;
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+/* Imágenes que no pierdan proporción */
+#carouselExampleCaptions .carousel-item img {
+    width: 100%;
+    height: auto;
+    max-height: 750px;
+    object-fit: contain;
+    object-position: center;
+}
+
+/* Leyenda con fondo blanco semitransparente y texto negro */
+.carousel-caption {
+    color: #000000; /* black */
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+/* Botones personalizados */
+.carousel-control-prev-icon-custom,
+.carousel-control-next-icon-custom {
+    display: inline-block;
+    font-size: 3rem;
+    color: #000000; /* black texto */
+    background-color: #FAAE7B; /* sandy-brown */
+    border-radius: 50%;
+    padding: 10px 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    user-select: none;
+    line-height: 1;
+    box-shadow: 0 0 6px rgba(250, 174, 123, 0.5);
+}
+
+/* Animación al pasar el mouse */
+.carousel-control-prev-icon-custom:hover,
+.carousel-control-next-icon-custom:hover {
+    transform: scale(1.15);
+    background-color: #000000; /* black fondo */
+    color: #FAAE7B; /* sandy-brown texto */
+    box-shadow: 0 0 10px #FAAE7B;
+}
+
+/* Opcional: cambiar cursor en los botones */
+.carousel-control-prev,
+.carousel-control-next {
+    outline: none;
+}
+
+
+.carousel-caption {
+    background-color: rgba(204, 204, 146, 0.8); /* gris-verdoso semitransparente */
+    color: #000; /* apple-green */
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.carousel-caption h5 {
+    color: #000; /* apple-green */
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    color: #333333; /* gris oscuro para mejor lectura */
+}
+
+/* nosotros */
+
+
+.sobre-nosotros-section {
+    background-color: #f2f2f2ff; /* white-smoke */
+    padding: 3rem 1rem;
+}
+
+.container-nosotros {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.texto-nosotros {
+    flex: 1 1 50%;
+    padding: 1rem;
+}
+
+.texto-nosotros h2 {
+    color: #9da01dff; /* apple-green */
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.texto-nosotros p {
+    color: #333; /* gris oscuro */
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.imagen-nosotros {
+    flex: 1 1 40%;
+    padding: 1rem;
+    text-align: center;
+}
+
+.imagen-nosotros img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
