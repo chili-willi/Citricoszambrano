@@ -44,3 +44,44 @@ header {
     margin-right: 30px;
 }
 
+/* footer */
+
+#about {
+    background-color: #000000ff;
+    color: #f2f2f2ff;
+    padding: 10px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: warp;
+    margin: 0 10px;
+}
+
+.footer-text {
+    font-size: 1em;
+}
+
+#about .social-links ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+#about .social-links li{
+    margin-left: 25px;
+}
+
+#about .social-links a{
+    color: #f2f2f2ff;
+    font-size: 1.5em;
+    transition: conlor 0.3s ease;
+}
+
+#about .social-links a:hover{
+    color: #FAAE7Bff;
+}
