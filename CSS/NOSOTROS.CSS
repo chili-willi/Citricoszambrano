@@ -1,5 +1,3 @@
-
-
 .main-content {
     padding-top: 100px;
     width: 90%;
@@ -33,8 +31,32 @@
     color: #666;
 }
 
+/* imagenes */
 
+.img-derecha,
+.img-izquierda {
+    max-width: 250px;
+    height: auto;
+    width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
 
+/* Imagen a la derecha del texto */
+.img-derecha {
+    float: right;
+    margin-left: 20px;
+}
 
+/* Imagen a la izquierda del texto */
+.img-izquierda {
+    float: left;
+    margin-right: 20px;
+}
 
-
+/* Asegura que la sección contenga la imagen flotante */
+.intro-section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
