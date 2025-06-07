@@ -21,7 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt2->close();
 
     // Redirigir a la página de éxito
-    header("Location: ../VISTAS/VUBICAYCONTACTO.PHP");
+    header("Location: http://localhost/citricoszambrano/VISTAS/VUBICAYCONTA.PHP");
     exit;
 }
 ?>  
