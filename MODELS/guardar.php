@@ -20,8 +20,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt2->execute();
     $stmt2->close();
 
-    echo "Datos guardados correctamente.";
-} else {
-    echo "Acceso no permitido.";
+    // Redirigir a la página de éxito
+    header("Location: ../VISTAS/VUBICAYCONTACTO.PHP");
+    exit;
 }
-?>
+?>  
