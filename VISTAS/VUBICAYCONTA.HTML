@@ -40,17 +40,31 @@
             </nav>
         </section> <!-- Encabezado -->
     </header>
-
-
-        <section id="Presentacion">
-            <h2>Inicio</h2>
-            <p>Bienvenido a nuestra página web. Aquí encontrarás información sobre nuestros productos y servicios.</p>
+    <title>Generador QR con API</title>
+</head>
+<body>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Nuestra Ubicación</h1>
+            </div>
+        </section>   
+        <section class="intro">
+    <h2>Visitanos en Corabastos</h2>
         </section>
+    <div id="qr">
+      <img id="qrImage" src="" alt="Código QR automático">
+    </div>
+  
+    <script>
+      const texto = "https://openai.com"; // Cámbialo por lo que tú quieras
 
+      const qrUrl = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://corabastos.com.co/${encodeURIComponent(texto)}`;
 
+      document.getElementById("qrImage").src = qrUrl;
+    </script>
 
-
-
+</body>
 
     <footer id="about">
         <div class="footer-container">
