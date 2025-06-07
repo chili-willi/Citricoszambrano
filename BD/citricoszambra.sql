@@ -6,7 +6,7 @@ USE citricoszambra;
 CREATE TABLE `cliente` (
   `idcliente` int(11) NOT NULL,
   `nombre` varchar(200) NOT NULL,
-  `telefono` int(15) NOT NULL,
+  `telefono` varchar(15) NOT NULL,
   `fecha_registro` date DEFAULT curdate()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
