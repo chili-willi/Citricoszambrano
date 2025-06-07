@@ -28,7 +28,11 @@
 #frameMapa {
     width: 100%; /* Ocupa todo el ancho del contenedor padre */
     height: 500px; /* Puedes ajustar esta altura si es necesario */
-    border: 1px solid #999;
+    border: 1px solid #f2f2f2;
     border-radius: 8px;
     margin: 20px 0;
 }
+
+
+
+
